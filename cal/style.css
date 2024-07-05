@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    padding: 40px;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1719043169120-fe41ede717e8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;}
+        #calculator{
+            border-radius: 10px;
+            margin: 40px;
+            padding: 20px;
+            border: 2px solid #000;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.468);
+            background: rgba(0,0,0,0.6);}
+
+            
+
+  input{
+   
+    border-radius: 10px;
+    width: 390px;
+    padding: 24px;
+    margin: 10px;
+    background: rgba(255,255,255,0.3);
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.842)
+    ;
+    font-size: 65px;
+    text-align: right;
+    color: #000;
+    border: solid 2px rgba(0, 0, 0, 0.595);
+    border-radius: 16;
+
+}
+input::placeholder{
+    color: #fff;
+}
+  
+  button{
+    width: 60px ;
+    height: 60px;
+    margin: 10px;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    font-size: 24px;
+    cursor: pointer;
+    border: solid 1px  rgba(255,255,255,0.2);
+    border-radius: 25px;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px 2px 10px rgba(0,0,0,0.5);
+  }
+  button:hover{
+    color: white;
+    background-color: #f67c14;}
+  .row{
+    margin: 8px 0;
+    
+  }
+  .row input{
+    
+    width: 340px;
+    height: 60px;
+    font-size: 20px;
+      margin: 0;
+      padding: 10px 0px;
+      border: 3px solid black;
+      border-radius: 10px;
+  }
+  .op{
+    color: #f67c14;
+}
+.ac ,.del{
+    font-size: 20px;
+    color: #f67c14;
+}
+button:hover{
+    color: white;
+    background-color: #f67c14;
+}
+.row  .equalbtn{
+    background: #f67c14;
+    color: #fff;
+}
