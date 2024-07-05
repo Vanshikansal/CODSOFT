@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: beige;
+    
+    
+    font-family: 'Poppins', sans-serif;
+}
+nav{  
+    align-items: center;
+    display: flex;
+    background-color: black;
+  
+    justify-content: space-around;
+    
+    height: 60px;
+
+   
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: rgb(68, 84, 173);
+    size: 1.5rem;
+}
+nav .right{
+    font-size: 30px;
+    color: beige;
+    
+    display: flex;
+    
+}
+nav .right .lan{
+    
+    font-size: 30px;
+    color: rgb(68, 84, 173);
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#up{
+    height: 60%;
+   
+    
+    background-image: url(https://media.istockphoto.com/id/1456259535/photo/businessman-interacting-with-laptops-phones-and-tablets-with-featuring-stock-tickers-or.jpg?s=612x612&w=0&k=20&c=jVM-8HEPvktFUekQ7zO_A28XL7NUrzL6SpD5YoZP1nU=);
+    background-size: cover;
+}
+#down{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1132593892/photo/dark-blue-stained-grungy-background-or-texture.webp?b=1&s=170667a&w=0&k=20&c=Gpd2eQFUMMBg15xCZ3l_xXevqxPHrqaTGYECthR-NE0=);
+}
+#two{
+    padding-top: 8.5%;
+    padding-left: 11.5%;
+    width: 25%;
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/1602831577/photo/digital-currency-and-dollar-sign.webp?b=1&s=170667a&w=0&k=20&c=22PQ5NabPz6AjbPIqXU6-22nLwgddUVlavGwK7YoakA=);
+    
+}
+#two a{
+    
+   
+    
+    
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+#one {
+    width: 25%;
+    height: 100%;
+    padding: 30px;
+    background-color: rgb(68, 84, 173);
+    color: black;
+    
+}
+#one h1{
+    text-decoration: underline;
+}
+#one p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+#three{
+    
+    width: 25%;
+    height: 100%;
+}
+#threetop{
+    background-size: cover;
+    background-position: left;
+    background-color: black;
+    padding: 30px;
+    
+    width: 100%;
+    height: 50%;
+}
+#threedown{
+    background-size: cover;
+    background-position: left;
+    background-image: url(https://media.istockphoto.com/id/1841385918/photo/internet-business-technology-and-network-concept-web-hosting-the-activity-of-providing.webp?b=1&s=170667a&w=0&k=20&c=7HRwF7HBVR1w4Wlk0iZ233Po1NYLaE-FbiEq1lQX8Wk=);
+    width: 100%;
+    height: 50%;
+}
+#threetop p{
+    margin-top: 20px;
+    font-size: 12px;}
+#four{
+    width: 25%;
+    height: 100%;
+    padding: 30px;
+    font: black;
+    background-color: #373636;
+}
+#four p{
+    margin-top: 20px;
+    font-size: 12px;
+    
+    color: white;
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+#text{
+    justify-content: space-between;
+    align-items: baseline;
+    
+    
+    position: absolute;
+    width: 100%;
+
+    bottom: 20%;
+
+    
+    
+    padding: 0 10vw;
+   
+    
+}
+#text .digital{
+    font-size: 45px;
+    
+    color: black;
+    font-size:6vw;
+    display: inline;
+    
+    
+}
+#text  .tag{
+    font-size: 20px;
+    color: white;
+    
+}
+#text .market{
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+
+#icon  a{
+    
+    
+    color: white;
+    
+    font-size: 25px;
+    text-decoration: none;  
+}
+#icon a:hover{
+    color: rgb(68, 84, 173);
+    font-size: 26px;
+}
+.btn{
+    
+    font-size: 15px;
+    padding: 4px 12px;
+    border: 2px solid black;
+    border-radius: 30rem;
+    color: black;
+    
+    background-color: rgb(68, 84, 173);
+}
+.btn:hover{
+    color: white;
+}
+footer{
+    background-image: url(https://media.istockphoto.com/id/1132593892/photo/dark-blue-stained-grungy-background-or-texture.webp?b=1&s=170667a&w=0&k=20&c=Gpd2eQFUMMBg15xCZ3l_xXevqxPHrqaTGYECthR-NE0=);
+    
+    
+}
+footer .about{
+    
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+footer .about p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.btn1{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 4px 12px;
+    border: 2px solid black;
+    border-radius: 30rem;
+    color: black;
+    
+    background-color: rgb(68, 84, 173);
+}
+.btn1:hover{
+    color: white;
+    
+}
+#two a:hover{
+    color:black ;
+}
